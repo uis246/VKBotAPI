@@ -11,8 +11,6 @@ public class module{
 //	}
 //	public void exec(String[] arg, msh msh) {
 //	}
-	public void exec(String[] arg) {
-	}
 	public void disablePlugin() {
 	}
 	public HashMap<String,Command> commands=new HashMap<String,Command>();
