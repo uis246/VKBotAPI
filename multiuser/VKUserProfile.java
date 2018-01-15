@@ -1,8 +1,8 @@
 package API.multiuser;
 
 public class VKUserProfile implements IUserProfile {
-	private String nick="Ноунейм какой-та аш вааще пи***ц";
-	private byte OPLevel=0;
+	private String nick="Ноунейм какой-та аш ваааще пи***ц";
+	private byte OPLevel=-128;
 	public VKUserProfile(String nick){
 		if(nick!=null){
 			this.nick=nick;
