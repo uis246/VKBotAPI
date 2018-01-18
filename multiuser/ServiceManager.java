@@ -1,8 +1,13 @@
 package API.multiuser;
 
+import java.io.Serializable;
 import java.util.LinkedHashMap;
 
-public class ServiceManager {
+public class ServiceManager implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3899571378997485887L;
 	// 
 	private static LinkedHashMap<Object, ProfileManager> m=new LinkedHashMap<Object, ProfileManager>();
 public static void addProfileManager(Object key, ProfileManager manager){
