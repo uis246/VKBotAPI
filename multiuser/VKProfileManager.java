@@ -1,8 +1,10 @@
 package API.multiuser;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
-public class VKProfileManager implements ProfileManager {
+public class VKProfileManager implements Serializable, ProfileManager{
+	private static final long serialVersionUID = 1L;
 	HashMap<Object, VKUserProfile> m=new HashMap<Object, VKUserProfile>();
 	@Override
 	public VKUserProfile getProfile(Object id) {

@@ -1,6 +1,9 @@
 package API.multiuser;
 
-public class VKUserProfile implements IUserProfile {
+import java.io.Serializable;
+
+public class VKUserProfile implements Serializable, IUserProfile {
+	private static final long serialVersionUID = 2306898330852769463L;
 	private String nick="Ноунейм какой-та аш ваааще пи***ц";
 	private byte OPLevel=-128;
 	public VKUserProfile(String nick){
